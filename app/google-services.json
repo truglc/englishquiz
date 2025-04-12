@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "764614738208",
+    "project_id": "flower-fa345",
+    "storage_bucket": "flower-fa345.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764614738208:android:51699bfb69b5536d4c5745",
+        "android_client_info": {
+          "package_name": "vn.edu.tlu.cse.englishquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqq-XtmofozAdaA1NCAOUV3jNit6Miv70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
