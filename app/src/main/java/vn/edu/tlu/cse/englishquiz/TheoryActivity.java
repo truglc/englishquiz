@@ -17,6 +17,6 @@ public class TheoryActivity extends AppCompatActivity {
         webView = findViewById(R.id.webView);
         webView.setWebViewClient(new WebViewClient());
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("https://www.ef.com/wwen/english-resources/english-grammar/");
+        webView.loadUrl("https://www.youtube.com/watch?v=v_TMZmeQU40");
     }
 }

@@ -3,12 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="vn.edu.tlu.cse.learning_english.MainActivity"
+    tools:context="vn.edu.tlu.cse.englishquiz.MainActivity"
     android:orientation="vertical"
     android:background="@drawable/background"
     android:gravity="center_horizontal"
     android:padding="24dp">
-
     <ImageView
         android:id="@+id/Logo"
         android:layout_width="150dp"

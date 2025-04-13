@@ -23,7 +23,7 @@
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/custom_title"
+        android:background="@drawable/custom_button"
         android:text="@string/question"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -103,12 +103,27 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/RadioGroup"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="40dp"
         android:background="@drawable/custom_button"
         android:text="@string/answer"
         android:textAllCaps="false"
         android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Answer"
+        android:layout_toEndOf="@+id/Answer"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/custom_title"
+        android:padding="8dp"
+        android:text="0/0"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -132,8 +147,8 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/Answer"
-        android:layout_marginTop="2dp"
         android:layout_toRightOf="@+id/Help"
+        android:layout_marginTop="2dp"
         android:background="@drawable/custom_button"
         android:text="@string/skip"
         android:textAllCaps="false"
@@ -141,18 +156,4 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/Result"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Skip"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginRight="70dp"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/custom_title"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold" />
 </RelativeLayout>

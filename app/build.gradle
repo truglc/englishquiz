@@ -31,13 +31,17 @@ android {
 }
 
 dependencies {
+    // Firebase BOM for automatic version management
+    implementation platform('com.google.firebase:firebase-bom:31.2.3')
+
+    // Firebase SDKs
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-database'
+
     // AndroidX & UI
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-
-    // Firebase Auth (mới nhất)
-    implementation 'com.google.firebase:firebase-auth:23.2.0'
 
     // MPAndroidChart
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
@@ -49,4 +53,12 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+
 }
+
+// Apply the Google Services plugin
+apply plugin: 'com.google.gms.google-services'

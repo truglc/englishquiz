@@ -26,29 +26,7 @@
         android:layout_margin="50dp"
         android:background="@color/white"
         />
-    <TextView
-        android:id="@+id/Title2"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:text="@string/choose"
-        android:textAlignment="center"
-        android:textSize="30dp"
-        android:layout_below="@+id/edtname"
-        android:layout_gravity="center"
-        android:background="@drawable/custom_title"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        />
-    <Spinner
-        android:id="@+id/Spinner"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Title2"
-        android:layout_gravity="center"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold"
-        />
+
     <Button
         android:id="@+id/Start"
         android:layout_width="150dp"
